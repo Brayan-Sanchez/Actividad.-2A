@@ -1,6 +1,7 @@
 import java.io.PrintStream;
 import java.util.Scanner;
-class Actividad1{
+
+class Actividad3{
     public static PrintStream screen = System.out;
     public static Scanner keyboard = new Scanner(System.in);
     public static void main(String[] args) {
@@ -12,5 +13,15 @@ class Actividad1{
         }else{
             System.out.println("el " + num +" es impar");
         }
+         if(num>0){
+        System.out.println(" el " + num + " es positivo");
+        }else{
+            if(num==0){
+                System.out.println(" el " + num + " es 0 ");
+            }else{
+                System.out.println(" el " + num + " es negativo");
+            }
+        }
+
     }
 }
